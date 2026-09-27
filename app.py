@@ -53,7 +53,7 @@ html, body, [class*="css"] {
 }
 
 .subtitle {
-    color: #6E756E;
+    color: #4A504A; /* Darkened for better contrast */
     font-size: 1.05rem;
     margin-bottom: 2rem;
 }
@@ -82,14 +82,14 @@ html, body, [class*="css"] {
 }
 
 .section-description {
-    color: #777D76;
+    color: #5A605A; /* Darkened for better contrast */
     font-size: 0.9rem;
     margin-bottom: 1.2rem;
 }
 
 /* Cards */
 .card {
-    background: rgba(255,255,255,0.82);
+    background: white; /* Changed to solid white for better contrast */
     border: 1px solid rgba(70, 88, 70, 0.10);
     border-radius: 20px;
     padding: 1.5rem;
@@ -211,7 +211,7 @@ div[data-baseweb="select"] > div {
     border-left: 4px solid #71866C;
     padding: 1rem 1.2rem;
     border-radius: 0 12px 12px 0;
-    color: #596257;
+    color: #3A423A; /* Darkened for better contrast */
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
 }
